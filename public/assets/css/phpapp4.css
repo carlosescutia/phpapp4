@@ -1,15 +1,4 @@
-body > .ui.container {
-    margin-top: 3em;
+.barra {
+    min-height: 50px;
 }
-
-.site {
-  display: flex;
-  min-height: 120vh;
-  flex-direction: column;
-}
-
-.Site-content {
-  flex: 1;
-}
-
 
