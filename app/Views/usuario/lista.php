@@ -14,7 +14,7 @@
                         <h4 class="ui image header">
                             <i class="circular user icon"></i>
                             <div class="content">
-                                <a href="<?=base_url()?>usuario/detalle/<?=$usuarios_item['id_usuario']?>"><?= $usuarios_item['nom_usuario'] ?></a>
+                                <a href="<?=site_url('usuario/detalle/')?><?=$usuarios_item['id_usuario']?>"><?= $usuarios_item['nom_usuario'] ?></a>
                                 <div class="sub header"><?=$usuarios_item['id_rol']?></div>
                             </div>
                         </h4>

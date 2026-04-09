@@ -20,7 +20,7 @@ class Parametro_sistema_model extends Model
         return $query->getResultArray();
     }
 
-    public function get_parametro_sistema_id($id_parametro_sistema) {
+    public function get_parametro_sistema($id_parametro_sistema) {
         $sql = 'select * from parametro_sistema where id_parametro_sistema = ?;';
         $query = $this->db->query($sql, array($id_parametro_sistema));
         return $query->getRowArray();

@@ -11,15 +11,15 @@ class AccesoSistemaSeeder extends Seeder
         $data = [
             [
                 'id_rol' => 'admin',
-                'cod_opcion_sistema' => 'reportes.can_view',
+                'cod_opcion_sistema' => 'reporte.can_view',
             ],
             [
                 'id_rol' => 'admin',
-                'cod_opcion_sistema' => 'reportes_administrador.can_view',
+                'cod_opcion_sistema' => 'reporte_admin.can_view',
             ],
             [
                 'id_rol' => 'admin',
-                'cod_opcion_sistema' => 'catalogos.can_view',
+                'cod_opcion_sistema' => 'catalogo.can_view',
             ],
             [
                 'id_rol' => 'admin',
@@ -39,23 +39,31 @@ class AccesoSistemaSeeder extends Seeder
             ],
             [
                 'id_rol' => 'admin',
+                'cod_opcion_sistema' => 'rol.can_view',
+            ],
+            [
+                'id_rol' => 'admin',
+                'cod_opcion_sistema' => 'opcion_sistema.can_edit',
+            ],
+            [
+                'id_rol' => 'admin',
                 'cod_opcion_sistema' => 'parametro_sistema.can_edit',
             ],
             [
                 'id_rol' => 'mentor',
-                'cod_opcion_sistema' => 'reportes.can_view',
+                'cod_opcion_sistema' => 'reporte.can_view',
             ],
             [
                 'id_rol' => 'mentor',
-                'cod_opcion_sistema' => 'reportes_mentor.can_view',
+                'cod_opcion_sistema' => 'reporte_mentor.can_view',
             ],
             [
                 'id_rol' => 'alumno',
-                'cod_opcion_sistema' => 'reportes.can_view',
+                'cod_opcion_sistema' => 'reporte.can_view',
             ],
             [
                 'id_rol' => 'alumno',
-                'cod_opcion_sistema' => 'reportes_alumno.can_view',
+                'cod_opcion_sistema' => 'reporte_alumno.can_view',
             ],
         ];
 

@@ -18,7 +18,7 @@ class Admin extends BaseController
             $data += $this->fn_sis->get_userdata();
 
             $permisos_requeridos = array(
-                'reportes_mentor.can_view',
+                'reporte_mentor.can_view',
             );
             if (has_permission_or($permisos_requeridos, $data['permisos_usuario'])) {
                 $acceso = 'Puede ver reportes de mentor';
@@ -28,7 +28,7 @@ class Admin extends BaseController
 
             $data['acceso'] = $acceso;
 
-            return view('templates/header')
+            return view('templates/header', $data)
                 .view('admin/index', $data)
                 .view('templates/footer');
         } else {

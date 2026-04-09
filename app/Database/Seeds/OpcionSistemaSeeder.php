@@ -15,17 +15,17 @@ class OpcionSistemaSeeder extends Seeder
                 'otorgable' => null
             ],
             [
-                'cod_opcion_sistema' => 'reporte.usuario.can_view',
-                'nom_opcion_sistema' => 'Reportes de usuario',
+                'cod_opcion_sistema' => 'reporte_alumno.can_view',
+                'nom_opcion_sistema' => 'Reportes de alumno',
                 'otorgable' => null
             ],
             [
-                'cod_opcion_sistema' => 'reporte.mentor.can_view',
+                'cod_opcion_sistema' => 'reporte_mentor.can_view',
                 'nom_opcion_sistema' => 'Reportes de mentor',
                 'otorgable' => null
             ],
             [
-                'cod_opcion_sistema' => 'reporte.admin.can_view',
+                'cod_opcion_sistema' => 'reporte_admin.can_view',
                 'nom_opcion_sistema' => 'Reportes de administrador',
                 'otorgable' => null
             ],
@@ -50,13 +50,18 @@ class OpcionSistemaSeeder extends Seeder
                 'otorgable' => null
             ],
             [
-                'cod_opcion_sistema' => 'acceso_sistema_usuario_sistema.can_edit',
+                'cod_opcion_sistema' => 'acceso_sistema_usuario.can_edit',
                 'nom_opcion_sistema' => 'Editar accesos del sistema por usuario',
                 'otorgable' => null
             ],
             [
                 'cod_opcion_sistema' => 'usuario.can_edit',
                 'nom_opcion_sistema' => 'Editar usuarios',
+                'otorgable' => null
+            ],
+            [
+                'cod_opcion_sistema' => 'rol.can_view',
+                'nom_opcion_sistema' => 'Ver roles',
                 'otorgable' => null
             ],
         ];

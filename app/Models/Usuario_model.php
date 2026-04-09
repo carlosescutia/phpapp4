@@ -24,6 +24,7 @@ class Usuario_model extends Model
             ."u.* "
             ."from "
             ."usuario u "
+            ."order by nom_usuario "
             ."";
         $query = $this->db->query($sql);
         return $query->getResultArray();
